@@ -31,25 +31,18 @@ public class Zahl extends Actor
     }
     public void neuPuk()
     {
-    public void test()
-    {
-        String c = Zwei;
-        String b = Vier;
-        
-        
-        int x = Math.random(1);
-        
+        double x = Math.random();
         if(x < 0.2)
         {
-            Zwei Zwei = new Zwei();
+               Zwei Zwei = new Zwei();
             getWorld().addObject(Zwei, Greenfoot.getRandomNumber(4) , Greenfoot.getRandomNumber(4));
         }
         else if(x < 0.3 && x > 0.2)
         {
-            return b;
-            
+            Vier Vier = new Vier();
+            getWorld().addObject(Vier, Greenfoot.getRandomNumber(4) , Greenfoot.getRandomNumber(4));
         }
-        
+
     }
                                   
     }
